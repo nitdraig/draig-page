@@ -1,0 +1,88 @@
+.banner__book {
+  background-image: url("./../../assets/img/gatonegro-portada.webp");
+  width: 100%;
+  height: 1600px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -30em;
+}
+
+.banner__book::before {
+  content: "";
+  height: 100%;
+  width: 100%;
+  background: rgb(0, 0, 0);
+  opacity: 0.8;
+}
+
+.banner-info__book {
+  padding: 0.3em;
+  position: absolute;
+  width: 100%;
+  max-width: 800px;
+  text-align: center;
+  color: #fff;
+  margin: auto;
+}
+
+.banner-tittle__book {
+  line-height: 1.5;
+  font-size: 2em;
+}
+.banner-info__book {
+  line-height: 2;
+  font-size: 1em;
+  font-family: "Space Mono", monospace;
+  font-weight: 500;
+}
+
+.botton-container__book {
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  margin-top: 22em;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.click-me__book {
+  color: #f6fcff !important;
+  font-size: 16px;
+  font-weight: 500;
+  padding: 0.5em 1.2em;
+  background: rgba(0, 0, 0, 0);
+  border: 2px solid;
+  border-color: #5c2ad1;
+  transition: all 1s ease;
+  position: relative;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.click-me__book:hover {
+  background: #4a1faf;
+  color: #fff !important;
+}
+.button__back {
+  display: inline-block;
+  margin: 0.5em;
+  background-color: #b9b9b9;
+  color: #313131;
+  padding: 0.8rem 2rem;
+  border-radius: 2rem;
+  transition: background-color 0.25s;
+}
+.button__back:hover {
+  background-color: #d3d3d3;
+}
+@media (max-width: 600px) {
+  .botton-container__book {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .botton-container__book button {
+    margin-top: 10px;
+  }
+}
