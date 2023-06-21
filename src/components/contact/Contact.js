@@ -141,11 +141,7 @@ export const Contact = () => {
       <Container>
         <TrackVisibility>
           {({ isVisible }) => (
-            <div
-              className={
-                isVisible ? "animate__animated animate__fadeInDown" : ""
-              }
-            >
+            <div className={isVisible ? "animate__animated " : ""}>
               <Row className="justify-content-md-center">
                 <Col md={6} lg={5} className="mb-3">
                   <h2>Sigueme en mis redes</h2>
