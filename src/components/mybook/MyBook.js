@@ -95,7 +95,7 @@ const MyBook = () => {
                   Gracias por tu atención.
                 </p>
               </Col>
-              <Col xs={12} className="text-center">
+              <Col xs={12} className="text-center" style={{}}>
                 <a href="https://www.amazon.com/dp/1687540241" target="_blank">
                   <button className="click-me__book">Ver en Amazon</button>
                 </a>

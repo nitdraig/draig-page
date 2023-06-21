@@ -60,6 +60,7 @@
   border-color: #5c2ad1;
   transition: all 1s ease;
   position: relative;
+  margin: 1.5em;
   font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
 .click-me__book:hover {
