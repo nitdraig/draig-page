@@ -58,13 +58,12 @@ export const Banner = () => {
                   </h1>
                   <p>
                     {" "}
-                    Soy Cantante, rapero, compositor, productor, y artista en
-                    desarrollo. <br /> Fundador de Tinta Negra Studios, un Room
-                    Studio, en desarrollo aún y encaminado en hacer producciones
-                    de todo tipo y en gran escala. <br /> No soy un artista
-                    completo, no aún, estoy en proceso, de aprender, de
-                    equivocarme y con la firme creencia en mí. <br />{" "}
-                    <em>Voy por todo, y más.</em>
+                    Compositor, productor, y artista en desarrollo. <br />{" "}
+                    Fundador de Tinta Negra Studios, un Room Studio, en busca de
+                    hacer producciones audiovisuales de todo tipo y en gran
+                    escala. <br /> No soy un artista completo, no aún, estoy en
+                    proceso, de aprender, de equivocarme y con la firme creencia
+                    en mí. <br /> <em>Voy por todo, y más.</em>
                   </p>{" "}
                   <a href="#contact">
                     <button>

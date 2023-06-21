@@ -11,6 +11,15 @@ export const Footer = () => {
           <Col sm={6}>
             <img src={logo} alt="Logo" />
             <p>© CopyRight 2023. All rights reserved</p>
+            <p>
+              Developed by{" "}
+              <a
+                href="https://www.linkedin.com/in/avellaneda-agustín-tns/"
+                target="blank"
+              >
+                Avellaneda Agustín
+              </a>
+            </p>
           </Col>
           <Col
             sm={6}

@@ -100,9 +100,7 @@ export const Projects = () => {
     <section className="project" id="projects">
       <TrackVisibility>
         {({ isVisible }) => (
-          <div
-            className={isVisible ? "animate__animated animate__flipInX" : ""}
-          >
+          <div className={isVisible ? "animate__animated animate__pulse" : ""}>
             <Container>
               <Row>
                 <Col xs={12}>
