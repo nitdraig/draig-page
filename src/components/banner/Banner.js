@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import { Col, Container, Row } from "react-bootstrap";
 import { ArrowDownRightCircle } from "react-bootstrap-icons";
-import headerImg from "../../assets/img/This-is-draig.jpg";
+// import headerImg from "../../assets/img/This-is-draig.jpg";
 import "animate.css";
 import TrackVisibility from "react-on-screen";
 
@@ -75,7 +75,7 @@ export const Banner = () => {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src={headerImg} alt="header image" />
+            <img src="https://res.cloudinary.com/dcu06etml/image/upload/v1688837279/draig-page/lslfxnpqj6kwdpe8bcsu.jpg" alt="header image" />
           </Col>
         </Row>
       </Container>

@@ -9,7 +9,7 @@ export const Footer = () => {
       <Container>
         <Row className="align-item-center">
           <Col sm={6}>
-            <img src={logo} alt="Logo" />
+            <img src="https://res.cloudinary.com/dcu06etml/image/upload/v1688837284/draig-page/ciapkyqxomwvb6myfb9i.svg" alt="Logo" />
             <p>© CopyRight 2023. All rights reserved</p>
             <p>
               Developed by{" "}

@@ -3,8 +3,6 @@ import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import logo from "../../assets/img/logo.svg";
-
-import { Link } from "react-router-dom";
 import { faYoutube, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -33,7 +31,7 @@ export const NavBar = () => {
       <Container>
         <Navbar.Brand>
           <img
-            src={logo}
+            src="https://res.cloudinary.com/dcu06etml/image/upload/v1688837284/draig-page/ciapkyqxomwvb6myfb9i.svg"
             alt="logo"
             style={{
               height: "6rem",
@@ -55,15 +53,7 @@ export const NavBar = () => {
             >
               Home
             </Nav.Link>
-            {/* <Nav.Link
-              href="#skills"
-              className={
-                activeLink === "skills" ? "active navbar-link" : "navbar-link"
-              }
-              onClick={() => onUpdateActiveLink("skills")}
-            >
-              Proyectos
-            </Nav.Link> */}
+
             <Nav.Link
               href="#projects"
               className={
