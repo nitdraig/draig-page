@@ -14,17 +14,22 @@ export const ProjectDisk = ({
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span> <br />
-          <a href={linkYoutube} target="blank">
-            {" "}
-            <Button variant="dark" style={{ margin: "1em" }}>
-              Escuchar en Youtube
-            </Button>{" "}
-          </a>
-          <a href={linkSpotify} target="blank">
-            <Button variant="dark" style={{ margin: "1em" }}>
-              Escuchar en Spotify
-            </Button>
-          </a>
+          <Button
+            variant="dark"
+            href={linkYoutube}
+            target="blank"
+            style={{ margin: "1em" }}
+          >
+            Escuchar en Youtube
+          </Button>{" "}
+          <Button
+            variant="dark"
+            href={linkSpotify}
+            target="blank"
+            style={{ margin: "1em" }}
+          >
+            Escuchar en Spotify
+          </Button>
         </div>
       </div>
     </Col>

@@ -1,5 +1,5 @@
 import { useState, useEffect } from "react";
-import { Col, Container, Row } from "react-bootstrap";
+import { Button, Col, Container, Row } from "react-bootstrap";
 import { ArrowDownRightCircle } from "react-bootstrap-icons";
 // import headerImg from "../../assets/img/This-is-draig.jpg";
 import "animate.css";
@@ -58,24 +58,30 @@ export const Banner = () => {
                   </h1>
                   <p>
                     {" "}
-                    Compositor, productor, y artista en desarrollo. <br />{" "}
-                    Fundador de Tinta Negra Studios, un Room Studio, en busca de
-                    hacer producciones audiovisuales de todo tipo y en gran
-                    escala. <br /> No soy un artista completo, no aún, estoy en
-                    proceso, de aprender, de equivocarme y con la firme creencia
-                    en mí. <br /> <em>Voy por todo, y más.</em>
+                    DRAIG, detrás de este nombre se encuentra un compositor,
+                    productor y escritor, con una pasión desbordante por el
+                    arte. <br /> DRAIG ha dejado su huella en la industria
+                    musical con su música en Spotify y otros plataformas. <br />{" "}
+                    Además de música, DRAIG también ha incursionado en la
+                    escritura, contando con un libro publicado en Amazon. <br />{" "}
+                    Fundador de <em>Tinta Negra Studios,</em> dedicado a crear
+                    producciones audiovisuales de todo tipo.
                   </p>{" "}
-                  <a href="#contact">
-                    <button>
+                  <div style={{ paddingTop: "1em" }}>
+                    {" "}
+                    <Button variant="outline-light" href="#contact">
                       Mis redes <ArrowDownRightCircle size={25} />
-                    </button>{" "}
-                  </a>
+                    </Button>
+                  </div>
                 </div>
               )}
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <img src="https://res.cloudinary.com/dcu06etml/image/upload/v1688837279/draig-page/lslfxnpqj6kwdpe8bcsu.jpg" alt="header image" />
+            <img
+              src="https://res.cloudinary.com/dcu06etml/image/upload/v1688837279/draig-page/lslfxnpqj6kwdpe8bcsu.jpg"
+              alt="header image"
+            />
           </Col>
         </Row>
       </Container>

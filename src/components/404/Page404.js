@@ -13,11 +13,14 @@ const Page404 = () => {
               <h1>404 😮</h1>
               <h2>Oops! Page Not Be Found</h2>
               <p>Lo sentimos pero la página que buscas no existe.</p>
-              <Link to="/">
-                <Button variant="outline-light" style={{ marginTop: "2em" }}>
-                  Volver a página principal
-                </Button>
-              </Link>
+
+              <Button
+                href="/"
+                variant="outline-light"
+                style={{ marginTop: "2em" }}
+              >
+                Volver a página principal
+              </Button>
             </div>
           </div>
         )}

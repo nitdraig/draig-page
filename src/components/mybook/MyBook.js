@@ -1,5 +1,5 @@
 import React from "react";
-import { Container, Row, Col } from "react-bootstrap";
+import { Container, Row, Col, Button } from "react-bootstrap";
 import style from "./../mybook/MyBook.style.css";
 import { Link } from "react-router-dom";
 import "animate.css";
@@ -9,16 +9,16 @@ const MyBook = () => {
     <div className={"animate__animated animate__rollIn"}>
       <section className="banner__book">
         <Container className="banner-info__book">
-          <Link to="/">
-            <button className="button__back">Volver </button>
-          </Link>
+          <Button href="/" className="button__back">
+            Volver
+          </Button>
 
           <Container>
             <Row className="justify-content-center">
               <Col xs={12} sm={5}>
                 <img
                   src="https://res.cloudinary.com/dcu06etml/image/upload/v1688837282/draig-page/bszakuvlbg0uivefbiw5.webp"
-                  className="imgBook"
+                  className="img_Book"
                   alt="día 13, el gato negro y otras locuras portada"
                 />
               </Col>{" "}
@@ -46,16 +46,18 @@ const MyBook = () => {
                 </p>
               </Col>
               <Col xs={12} className="text-center" style={{}}>
-                <a href="https://www.amazon.com/dp/1687540241" target="blank">
-                  <button className="click-me__book">Ver en Amazon</button>
+                <a
+                  href="https://www.amazon.com/dp/1687540241"
+                  className="click-me__book"
+                  target="blank"
+                >
+                  Ver en Amazon
                 </a>
-                <a href="/" className="button-other" target="blank">
-                  <button
-                    className="click-me__book"
-                    style={{ cursor: "notAllowed", opacity: " 0.6" }}
-                  >
-                    Otros
-                  </button>
+                <a
+                  className="click-me__book"
+                  style={{ cursor: "notAllowed", opacity: " 0.6" }}
+                >
+                  Otros
                 </a>
               </Col>
             </Row>

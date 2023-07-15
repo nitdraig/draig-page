@@ -10,22 +10,27 @@ export const ProjectCard = ({
   return (
     <Col sm={8} md={4}>
       <div className="proj-imgbx">
-        <img src={imgUrl} />
+        <img src={imgUrl} alt="song_photo" />
         <div className="proj-txtx">
           <h4>{title}</h4>
           <span>{description}</span> <br />
-          <a href={linkYoutube} target="blank">
-            <Button variant="dark" style={{ margin: "0.5em" }}>
-              {" "}
-              Escuchar Youtube
-            </Button>
-          </a>
-          <a href={linkSpotify} target="blank">
-            <Button variant="dark" style={{ margin: "1em" }}>
-              Escuchar en Spotify
-            </Button>
-          </a>
-        </div>
+          <Button
+            variant="dark"
+            href={linkYoutube}
+            target="_blank"
+            style={{ margin: "1em" }}
+          >
+            Escuchar en Youtube
+          </Button>
+          <Button
+            variant="dark"
+            href={linkSpotify}
+            target="_blank"
+            style={{ margin: "1em" }}
+          >
+            Escuchar en Spotify
+          </Button>
+        </div>{" "}
       </div>
     </Col>
   );
