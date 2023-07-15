@@ -61,7 +61,7 @@ export const Banner = () => {
                     DRAIG, detrás de este nombre se encuentra un compositor,
                     productor y escritor, con una pasión desbordante por el
                     arte. <br /> DRAIG ha dejado su huella en la industria
-                    musical con su música en Spotify y otros plataformas. <br />{" "}
+                    musical con su música en Spotify y otras plataformas. <br />{" "}
                     Además de música, DRAIG también ha incursionado en la
                     escritura, contando con un libro publicado en Amazon. <br />{" "}
                     Fundador de <em>Tinta Negra Studios,</em> dedicado a crear
