@@ -8,6 +8,16 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
+      title: "5-ntrol",
+      description:
+        "El relato de varias aventuras en tiempos de pandemia. Con videolyrics",
+      imgUrl:
+        "https://res.cloudinary.com/dcu06etml/image/upload/v1692406663/draig-page/dkqiki3h3wid6hq6jgax.webp",
+      linkYoutube: "https://www.youtube.com/watch?v=a7ixQ8CLuJc",
+      linkSpotify:
+        "https://open.spotify.com/intl-es/track/3kgrQDuk7jfbkZDFqGIder?si=762d8e1097224272",
+    },
+    {
       title: "Preso",
       description:
         "Un single con sonidos pop y r&b cuenta con un videoclip exclusivo, en camara: @baloccolara, producción en TNS.",
