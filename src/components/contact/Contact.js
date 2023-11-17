@@ -83,16 +83,16 @@ export const Contact = () => {
                     <Carousel.Item>
                       <img
                         className="d-block w-100"
-                        src="https://res.cloudinary.com/dcu06etml/image/upload/v1688837280/draig-page/vv4oxb2pi55bqqiubdby.jpg"
-                        alt="First slide"
+                        src="https://res.cloudinary.com/draig/image/upload/v1688837280/draig-page/vv4oxb2pi55bqqiubdby.jpg"
+                        alt="Draig_Photo_gallery 1"
                       />
                       <Carousel.Caption></Carousel.Caption>
                     </Carousel.Item>
                     <Carousel.Item>
                       <img
                         className="d-block w-100"
-                        src="https://res.cloudinary.com/dcu06etml/image/upload/v1688837280/draig-page/eiovyjmgxyqsavxach0z.jpg"
-                        alt="Second slide"
+                        src="https://res.cloudinary.com/draig/image/upload/v1688837280/draig-page/eiovyjmgxyqsavxach0z.jpg"
+                        alt="Draig_Photo_gallery 2"
                       />
 
                       <Carousel.Caption></Carousel.Caption>
@@ -100,8 +100,8 @@ export const Contact = () => {
                     <Carousel.Item>
                       <img
                         className="d-block w-100"
-                        src="https://res.cloudinary.com/dcu06etml/image/upload/v1688837280/draig-page/smeomlv2ghyxwoct3pby.jpg"
-                        alt="Third slide"
+                        src="https://res.cloudinary.com/draig/image/upload/v1688837285/draig-page/m6mbjm0eq0mkvfsotzed.png"
+                        alt="Draig_Photo_gallery 3"
                       />
 
                       <Carousel.Caption></Carousel.Caption>
