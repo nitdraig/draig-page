@@ -1,7 +1,6 @@
 import React from "react";
 import { Container, Row, Col, Button } from "react-bootstrap";
 import style from "./../mybook/MyBook.style.css";
-import { Link } from "react-router-dom";
 import "animate.css";
 
 const MyBook = () => {
@@ -17,7 +16,7 @@ const MyBook = () => {
             <Row className="justify-content-center">
               <Col xs={12} sm={5}>
                 <img
-                  src="https://res.cloudinary.com/dcu06etml/image/upload/v1688837282/draig-page/bszakuvlbg0uivefbiw5.webp"
+                  src="https://res.cloudinary.com/draig/image/upload/v1688837281/draig-page/kixgjneuvdurbaadspqx.jpg"
                   className="img_Book"
                   alt="día 13, el gato negro y otras locuras portada"
                 />

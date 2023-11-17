@@ -2,7 +2,6 @@ import { useState, useEffect } from "react";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
-import logo from "../../assets/img/logo.svg";
 import { faYoutube, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 
@@ -31,7 +30,7 @@ export const NavBar = () => {
       <Container>
         <Navbar.Brand>
           <img
-            src="https://res.cloudinary.com/dcu06etml/image/upload/v1688837284/draig-page/ciapkyqxomwvb6myfb9i.svg"
+            src="https://res.cloudinary.com/draig/image/upload/v1688837284/draig-page/ciapkyqxomwvb6myfb9i.svg"
             alt="logo"
             style={{
               height: "6rem",

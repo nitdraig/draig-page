@@ -1,6 +1,4 @@
 import { Container, Row, Col } from "react-bootstrap";
-import logo from "../../assets/img/logo.png";
-
 import { faYoutube, faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 export const Footer = () => {
@@ -10,8 +8,8 @@ export const Footer = () => {
         <Row className="align-item-center">
           <Col sm={6}>
             <img
-              src="https://res.cloudinary.com/dcu06etml/image/upload/v1688837284/draig-page/ciapkyqxomwvb6myfb9i.svg"
-              alt="Drag_logo"
+              src="https://res.cloudinary.com/draig/image/upload/v1688837284/draig-page/ciapkyqxomwvb6myfb9i.svg"
+              alt="Draig_logo"
             />
             <p>© CopyRight 2023. All rights reserved</p>
             <p>

@@ -79,8 +79,8 @@ export const Banner = () => {
           </Col>
           <Col xs={12} md={6} xl={5}>
             <img
-              src="https://res.cloudinary.com/dcu06etml/image/upload/v1688837279/draig-page/lslfxnpqj6kwdpe8bcsu.jpg"
-              alt="header image"
+              src="https://res.cloudinary.com/draig/image/upload/v1688837279/draig-page/lslfxnpqj6kwdpe8bcsu.jpg"
+              alt="Draig image"
             />
           </Col>
         </Row>

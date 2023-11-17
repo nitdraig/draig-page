@@ -39,7 +39,7 @@ export const Contact = () => {
                     >
                       <img
                         alt="show4Me"
-                        src="https://res.cloudinary.com/dcu06etml/image/upload/v1688837285/draig-page/jmdbxm9flbma5aqkpyn7.jpg"
+                        src="https://res.cloudinary.com/draig/image/upload/v1688837285/draig-page/jmdbxm9flbma5aqkpyn7.jpg"
                         style={{
                           width: "48px",
                           height: "45px",
