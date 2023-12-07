@@ -14,7 +14,8 @@ export const Projects = () => {
       imgUrl:
         "https://res.cloudinary.com/draig/image/upload/v1701987043/draig-page/npdw02mk50nydx32vuwq.webp",
       linkYoutube: "https://www.youtube.com/c/draig",
-      linkSpotify: "https://open.spotify.com/artist/7FAAkDlPg6pg0860CIDzmu",
+      linkSpotify:
+        "https://open.spotify.com/intl-es/artist/4OpBnqlUEGl2Q1coxeFget",
     },
     {
       title: "5-ntrol",
