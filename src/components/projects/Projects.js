@@ -8,6 +8,15 @@ import TrackVisibility from "react-on-screen";
 export const Projects = () => {
   const projects = [
     {
+      title: "D' king is back",
+      description:
+        "Todo los caminos llevan a Roma, el rey esta de vuelta, y acompañado por voces legendarias. ¿Te atrevés a intentar descifrar quienes son?",
+      imgUrl:
+        "https://res.cloudinary.com/draig/image/upload/v1701987043/draig-page/npdw02mk50nydx32vuwq.webp",
+      linkYoutube: "https://www.youtube.com/c/draig",
+      linkSpotify: "https://open.spotify.com/artist/7FAAkDlPg6pg0860CIDzmu",
+    },
+    {
       title: "5-ntrol",
       description:
         "El relato de varias aventuras en tiempos de pandemia. Con videolyrics",
